@@ -1,0 +1,33 @@
+<mujoco>
+    <sensor>
+
+        <!--PALM-->
+        <touch name="robot0:TS_palm_all" site="robot0:T_palm_all"></touch>
+
+         <!--FOREFINGER-->
+        <touch name="robot0:TS_ffproximal_all"  site="robot0:T_ffproximal_all"></touch>
+        <touch name="robot0:TS_ffmiddle_all"  site="robot0:T_ffmiddle_all"></touch>
+        <touch name="robot0:TS_fftip_all"         site="robot0:T_fftip_all"></touch>
+
+        <!-- MIDDLE FINGER -->
+        <touch name="robot0:TS_mfproximal_all"  site="robot0:T_mfproximal_all"></touch>
+        <touch name="robot0:TS_mfmiddle_all"         site="robot0:T_mfmiddle_all"></touch>
+        <touch name="robot0:TS_mftip_all"         site="robot0:T_mftip_all"></touch>
+
+        <!-- RING FINGER -->
+        <touch name="robot0:TS_rfproximal_all"  site="robot0:T_rfproximal_all"></touch>
+        <touch name="robot0:TS_rfmiddle_all"         site="robot0:T_rfmiddle_all"></touch>
+        <touch name="robot0:TS_rftip_all"         site="robot0:T_rftip_all"></touch>
+
+        <!-- LITTLE FINGER -->
+        <touch name="robot0:TS_lfproximal_all"  site="robot0:T_lfproximal_all"></touch>
+        <touch name="robot0:TS_lfmiddle_all"         site="robot0:T_lfmiddle_all"></touch>
+        <touch name="robot0:TS_lftip_all"         site="robot0:T_lftip_all"></touch>
+
+        <!--THUMB-->
+        <touch name="robot0:TS_thproximal_all"  site="robot0:T_thproximal_all"></touch>
+        <touch name="robot0:TS_thmiddle_all"         site="robot0:T_thmiddle_all"></touch>
+        <touch name="robot0:TS_thtip_all"         site="robot0:T_thtip_all"></touch>
+
+    </sensor>
+</mujoco>
